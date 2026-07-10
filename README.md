@@ -603,3 +603,19 @@ Les pistes ci-dessous sont ciblées sur les limites concrètement observées dan
 Ce pipeline démontre une approche disciplinée de la détection de fraude sur données transactionnelles déséquilibrées : une ingénierie de variables comportementales approfondie et sans fuite d'information, une sélection de variables validée empiriquement plutôt qu'arbitraire (le Top-50 surpasse le jeu complet de 113 features), un apprentissage cost-sensitive maîtrisé, et une comparaison honnête entre deux architectures de stacking aux philosophies différentes — cascade séquentielle disjointe versus stacking Out-of-Fold classique — avant fusion en ensemble.
 
 Sa principale force réside dans la traçabilité des choix : chaque décision de feature engineering, de sélection ou d'architecture est justifiée par un score de validation croisée mesuré, et le notebook intègre lui-même des garde-fous de détection de surapprentissage et de leakage. Sa principale limite, également identifiée en interne, concerne l'évaluation finale du Pipeline B, dont le score affiché doit être recalculé sur un jeu de validation strictement disjoint du jeu d'entraînement pour refléter fidèlement la performance attendue en production ou sur le leaderboard.
+
+## Contributor
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/hinimdoumorsia">
+        <img src="https://github.com/hinimdoumorsia.png" width="100px;" alt="Hinimdou Morsia Guitdam"/>
+        <br />
+        <sub><b>Hinimdou Morsia Guitdam</b></sub>
+      </a>
+      <br />
+      <sub>AI & Data Science Engineer</sub>
+    </td>
+  </tr>
+</table>
