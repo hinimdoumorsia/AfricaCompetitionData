@@ -604,7 +604,7 @@ Ce pipeline démontre une approche disciplinée de la détection de fraude sur d
 
 Sa principale force réside dans la traçabilité des choix : chaque décision de feature engineering, de sélection ou d'architecture est justifiée par un score de validation croisée mesuré, et le notebook intègre lui-même des garde-fous de détection de surapprentissage et de leakage. Sa principale limite, également identifiée en interne, concerne l'évaluation finale du Pipeline B, dont le score affiché doit être recalculé sur un jeu de validation strictement disjoint du jeu d'entraînement pour refléter fidèlement la performance attendue en production ou sur le leaderboard.
 
-## Contributor
+## **Contributor**
 
 <table>
   <tr>
@@ -616,6 +616,14 @@ Sa principale force réside dans la traçabilité des choix : chaque décision d
       </a>
       <br />
       <sub>AI & Data Science Engineer</sub>
+      <br /><br />
+      <a href="https://github.com/hinimdoumorsia">
+        <img src="https://img.shields.io/badge/GitHub-hinimdoumorsia-181717?style=for-the-badge&logo=github" alt="GitHub"/>
+      </a>
+      <br />
+      <a href="https://www.linkedin.com/in/morsia-guitdam-hinimdou-266bb0269/">
+        <img src="https://img.shields.io/badge/LinkedIn-Morsia%20Guitdam%20Hinimdou-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+      </a>
     </td>
   </tr>
 </table>
